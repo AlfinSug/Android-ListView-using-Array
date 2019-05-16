@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SplashScreen">
+
+    <ImageView
+        android:id="@+id/splash"
+        android:scaleType="centerCrop"
+        android:layout_marginBottom="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="0dp"
+        android:background="@drawable/okoke"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+
+
+    <TextView
+        android:id="@+id/tv_slogan"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="35dp"
+        android:text="Find Cafe"
+        android:fontFamily="@font/nunito"
+        android:textSize="35sp"
+        android:layout_marginLeft="25dp"
+        android:textColor="#fff"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tv_slogan2"
+        android:padding="5dp"
+        android:layout_below="@+id/tv_slogan"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:text="Coffe break time for you."
+        android:fontFamily="@font/nunito"
+        android:textSize="15sp"
+        android:layout_marginLeft="25dp"
+        android:textColor="#fff"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/btn_start"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:background="@drawable/back_price"
+        android:text="Get Started"
+        android:fontFamily="@font/nunito"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:layout_marginTop="145dp"
+        android:layout_marginLeft="25dp"
+        tools:ignore="MissingConstraints" />
+
+
+
+</RelativeLayout>

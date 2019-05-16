@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="10dp">
+
+
+    <com.jcminarro.roundkornerlayout.RoundKornerLinearLayout
+        android:layout_weight="3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        app:corner_radius="15dp">
+
+    <ImageView
+            android:layout_weight="1"
+            android:id="@+id/img_cafe"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:src="@drawable/antlecabin_1"
+            android:scaleType="centerCrop" />
+
+
+            <TextView
+                android:id="@+id/name_cafe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:fontFamily="@font/nunito"
+                android:text="Antler Cabin Surabaya"
+                android:textColor="#000"
+                android:textSize="20sp"
+                app:fontFamily="@font/nunito" />
+
+            <TextView
+                android:id="@+id/addres_cafe"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                android:background="@color/colorPrimaryDark"
+                android:fontFamily="@font/nunito"
+                android:text="Jl. Raya Darmo Permai 2 Blok D No.16"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="10sp"
+                android:textStyle="bold" />
+
+
+        </com.jcminarro.roundkornerlayout.RoundKornerLinearLayout>
+
+
+</android.support.v7.widget.CardView>
